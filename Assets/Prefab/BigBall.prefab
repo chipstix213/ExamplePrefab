@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7624234356001554910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157088552201401667}
+  - component: {fileID: 2641944181244323014}
+  - component: {fileID: 5016801807964730359}
+  - component: {fileID: 8937880757183036450}
+  - component: {fileID: -8775138396893153327}
+  - component: {fileID: 8082320693087007121}
+  m_Layer: 0
+  m_Name: BigBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157088552201401667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624234356001554910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.22218, y: 0.22218, z: 0.22218}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2641944181244323014
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624234356001554910}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5016801807964730359
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624234356001554910}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &8937880757183036450
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624234356001554910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-8775138396893153327
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624234356001554910}
+  serializedVersion: 4
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8082320693087007121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624234356001554910}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a58a7bd1da8974999a504c2c8bc350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _referenceId: 0
+  _dlcType: 0
+  switchOnOff: {fileID: 0}
+  activateButton: {fileID: 0}
+  leverAnimationComponent: {fileID: 0}
+  SuppressSound: 1
+  Forward: {x: 0, y: 0, z: 0}
+  HideInStationpedia: 0
+  CurrentPingMesh: {fileID: 0}
+  IsEmergency: 0
+  PrefabName: BigBall
+  PrefabHash: -1084918120
+  ThingTransform: {fileID: 157088552201401667}
+  Slots: []
+  Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  SurfaceArea: 0
+  SurfaceAreaScale: 1
+  BoundsOffset: {x: 0, y: 0, z: 0}
+  IgnoreSave: 0
+  generateTerrain: 1
+  WillSave: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
+  CanFrustumCull: 0
+  ThermodynamicsScale: 0.1
+  SolarHeatingScale: 0.1
+  WeatherDamageScale: 1
+  shatterTemperature: 1
+  flashpointTemperature: -1
+  autoignitionTemperature: -1
+  BurnTime: 5
+  ThingHealth: 100
+  EnergyReleasedWhenBurned: 100000
+  _customName: 
+  OwnerClientId: 0
+  PaintableMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  CustomColor:
+    Name: 
+    Bit: 0
+    StringKey: 0
+    Normal: {fileID: 0}
+    Emissive: {fileID: 0}
+    Cutable: {fileID: 0}
+    Light: {r: 1, g: 1, b: 1, a: 1}
+    Color: {r: 1, g: 1, b: 1, a: 1}
+  Interactables: []
+  AudioEvents: []
+  AudioSources: []
+  BaseAnimator: {fileID: 0}
+  IsCursor: 0
+  Blueprint: {fileID: 3280803945022372080, guid: 5d573e5f3efa72446922981fef705040, type: 3}
+  Wireframe: {fileID: 0}
+  lodFlares: []
+  IsCustomThing: 0
+  ThumbnailOffset: {x: 0, y: 0, z: 0}
+  ThumbnailRotation: {x: 0, y: 0, z: 0, w: 0}
+  Thumbnail: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  Thumbnails: []
+  IsEntity: 0
+  _isOccluded: 0
+  HasRunOnAtmospherics: 0
+  MaterialChanger: {fileID: 0}
+  AnimComponents: []
+  LocalGrid:
+    x: 0
+    y: 0
+    z: 0
+  Lights: []
+  Renderers: []
+  RocketRenderers: []
+  HasErrorState: 0
+  HasPowerState: 0
+  HasActivateState: 0
+  HasLockState: 0
+  HasOnOffState: 0
+  HasModeState: 0
+  HasOpenState: 0
+  HasImportState: 0
+  HasExportState: 0
+  HasExport2State: 0
+  HasButton1State: 0
+  HasButton2State: 0
+  HasButton3State: 0
+  HasColorState: 0
+  HasAccessState: 0
+  _staticColliders: []
+  _dynamicColliders: []
+  _selfColliders: []
+  IsUpdateEachFrame: 0
+  IsUpdateAudio: 0
+  IsUpdate100MS: 0
+  IsUpdate1000MS: 0
+  CanPickup: 1
+  DestroyChildrenOnDead: 1
+  EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  DiffuseIndex: 0
+  SmoothnessIndex: 0
+  SortingClass: 0
+  RecipeTier: 1
+  CollisionSound: 0
+  SlotWearAction: 0
+  SlotType: 0
+  SlotType1: 0
+  SlotType2: 0
+  DeleteOnDestroyed: 1
+  UsingSound: 
+  UseCompleteSound: 
+  HasLight: 0
+  IsSmall: 0
+  FastSpeed: 5
+  RigidBody: {fileID: -8775138396893153327}
+  WorldCenterOfMass: {x: 0, y: 0, z: 0}
+  GripType: 0
+  CastAnimation: 0
+  AtmosphereDampeningScale: 1
+  AttackWithEvent: 1
+  CenterOfMassOffset: {x: 0, y: 0, z: 0}
+  AtmosControl: 1
+  OnConveyor: 0
+  IsWatched: 0
+  TradeValue: -1
+  PlayerSellScale: 1
+  ExitTool:
+    ToolEntry: {fileID: 0}
+    ToolEntry2: {fileID: 0}
+    EntryTime: 2
+    EntryQuantity: 0
+    EntryQuantity2: 0
+    ToolUseType: 0
+    ToolExit: {fileID: 0}
+    ExitTime: 2
+    ExitQuantity: 0
+  ImpactForceThreshhold: 5
+  SizeMultiplier: 1
+  ImpactAudioCoolDown: 0
+  YHeight: 0
+  IsOutOfBounds: 0
+  RelativeVelocity: {x: 0, y: 0, z: 0}
+  Orientation: 0
+  ForceKinematicDistance: 0.01
+  IsForceKinematic: 0
+  AddExtraGravity: 1
+  _isBuoyant: 1
+  IsKinematic: 0
+  ChildSlotOffset: {x: 0, y: 0, z: 0}
+  ChildSlotOffsetPosition: {x: 0, y: 0, z: 0}
