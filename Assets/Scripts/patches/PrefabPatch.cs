@@ -54,6 +54,21 @@ namespace Chipstix.ExamplePrefab
                         testlight.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
                     }
 
+
+                    if (thing is TestRoundWallLight)
+                    {
+                        Debug.Log("patch TestLight");
+                        TestRoundWallLight testroundlight = gameObject.GetComponent<TestRoundWallLight>();
+                        /*MeshRenderer meshRenderer = gameObject.GetComponent<MeshRenderer>();
+                        meshRenderer.materials = new[]
+                        {
+                            customColors[4].Normal
+                        };
+                        thing.PaintableMaterial = customColors[6].Normal;*/
+                        testroundlight.BuildStates[0].Tool.ToolExit = StationeersModsUtility.FindTool(StationeersTool.DRILL);
+                        testroundlight.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
+                    }
+
                     //note
 
                     if (thing is ConstuctionBox)

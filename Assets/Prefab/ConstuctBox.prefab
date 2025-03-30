@@ -522,6 +522,7 @@ MonoBehaviour:
   Constructables:
   - {fileID: -5288815617789936139, guid: 0284befdc74508d4489a4c98dd05c574, type: 3}
   - {fileID: -4034353940515785613, guid: 9f6076f972c24ce42ac743d4de676dcd, type: 3}
+  - {fileID: 5196839630678443192, guid: 150cfa864d6a5eb4092225aed0319d90, type: 3}
 --- !u!1 &2383803100067058306
 GameObject:
   m_ObjectHideFlags: 0
