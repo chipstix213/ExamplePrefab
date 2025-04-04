@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Chipstix.ExamplePrefab
 {
-    public class BigBall : Item
+    public class MegaPipeConst : MultiMergeConstructor
     {
 
     }

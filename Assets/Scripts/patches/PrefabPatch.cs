@@ -68,21 +68,23 @@ namespace Chipstix.ExamplePrefab
                         testroundlight.BuildStates[0].Tool.ToolExit = StationeersModsUtility.FindTool(StationeersTool.DRILL);
                         testroundlight.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
                     }
-
-                    //note
-
-                    if (thing is ConstuctionBox)
+                    if (thing is MegaCable)
                     {
-                        Debug.Log("patch MultiConstructor");
-                        ConstuctionBox constuctionBox = gameObject.GetComponent<ConstuctionBox>();
+                        Debug.Log("patch MegaCable");
+                        MegaCable megacable = gameObject.GetComponent<MegaCable>();
                         /*MeshRenderer meshRenderer = gameObject.GetComponent<MeshRenderer>();
                         meshRenderer.materials = new[]
                         {
                             customColors[4].Normal
                         };
-                        thing.PaintableMaterial = customColors[4].Normal;*/
-                        constuctionBox.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
+                        thing.PaintableMaterial = customColors[6].Normal;*/
+                        megacable.BuildStates[0].Tool.ToolExit = StationeersModsUtility.FindTool(StationeersTool.CABLE_CUTTERS);
+                        megacable.BuildStates[0].Tool.ToolEntry2 = StationeersModsUtility.FindTool(StationeersTool.CABLE_CUTTERS);
+                        megacable.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
                     }
+
+                    //note
+
 
 
                     // Additional patching goes here, like setting references to materials(colors) or tools from the game

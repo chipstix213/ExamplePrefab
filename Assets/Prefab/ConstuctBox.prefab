@@ -141,7 +141,7 @@ MonoBehaviour:
   Slots: []
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.08, z: 0.5}
   SurfaceArea: 0
   SurfaceAreaScale: 1
   BoundsOffset: {x: 0, y: 0, z: 0}
@@ -182,7 +182,7 @@ MonoBehaviour:
   IsCustomThing: 0
   ThumbnailOffset: {x: 0, y: 0, z: 0}
   ThumbnailRotation: {x: 0, y: 0, z: 0, w: 0}
-  Thumbnail: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  Thumbnail: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
   Thumbnails: []
   IsEntity: 0
   _isOccluded: 0
@@ -521,8 +521,8 @@ MonoBehaviour:
   MaxQuantity: 2
   Constructables:
   - {fileID: -5288815617789936139, guid: 0284befdc74508d4489a4c98dd05c574, type: 3}
-  - {fileID: -4034353940515785613, guid: 9f6076f972c24ce42ac743d4de676dcd, type: 3}
   - {fileID: 5196839630678443192, guid: 150cfa864d6a5eb4092225aed0319d90, type: 3}
+  - {fileID: -4034353940515785613, guid: 9f6076f972c24ce42ac743d4de676dcd, type: 3}
 --- !u!1 &2383803100067058306
 GameObject:
   m_ObjectHideFlags: 0

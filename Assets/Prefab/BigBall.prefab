@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7624234356001554910
+--- !u!1 &4217862362304748273
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 157088552201401667}
-  - component: {fileID: 2641944181244323014}
-  - component: {fileID: 5016801807964730359}
-  - component: {fileID: 8937880757183036450}
-  - component: {fileID: -8775138396893153327}
-  - component: {fileID: 8082320693087007121}
+  - component: {fileID: 5977797192554029556}
+  - component: {fileID: 373225545517242721}
+  - component: {fileID: 293397622993176546}
+  - component: {fileID: 180597558326849189}
   m_Layer: 0
-  m_Name: BigBall
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &157088552201401667
+--- !u!4 &5977797192554029556
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7624234356001554910}
+  m_GameObject: {fileID: 4217862362304748273}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.22218, y: 0.22218, z: 0.22218}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 157088552201401667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2641944181244323014
+--- !u!33 &373225545517242721
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7624234356001554910}
+  m_GameObject: {fileID: 4217862362304748273}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &5016801807964730359
+--- !u!23 &293397622993176546
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7624234356001554910}
+  m_GameObject: {fileID: 4217862362304748273}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,14 +84,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &8937880757183036450
+--- !u!135 &180597558326849189
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7624234356001554910}
-  m_Material: {fileID: 0}
+  m_GameObject: {fileID: 4217862362304748273}
+  m_Material: {fileID: 13400000, guid: f6392bb9ab1d7ac48b26f0ea54f523e1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -107,7 +105,41 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &-8775138396893153327
+--- !u!1 &7624234356001554910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157088552201401667}
+  - component: {fileID: 8699027089850056654}
+  - component: {fileID: 5829048591899372661}
+  m_Layer: 0
+  m_Name: BigBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157088552201401667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7624234356001554910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5977797192554029556}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &8699027089850056654
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,7 +147,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7624234356001554910}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -134,14 +166,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8082320693087007121
+--- !u!114 &5829048591899372661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7624234356001554910}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5a58a7bd1da8974999a504c2c8bc350, type: 3}
   m_Name: 
@@ -162,7 +194,7 @@ MonoBehaviour:
   Slots: []
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.2, y: 0.2, z: 0.2}
   SurfaceArea: 0
   SurfaceAreaScale: 1
   BoundsOffset: {x: 0, y: 0, z: 0}
@@ -182,7 +214,7 @@ MonoBehaviour:
   EnergyReleasedWhenBurned: 100000
   _customName: 
   OwnerClientId: 0
-  PaintableMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  PaintableMaterial: {fileID: 0}
   CustomColor:
     Name: 
     Bit: 0
@@ -197,7 +229,7 @@ MonoBehaviour:
   AudioSources: []
   BaseAnimator: {fileID: 0}
   IsCursor: 0
-  Blueprint: {fileID: 3280803945022372080, guid: 5d573e5f3efa72446922981fef705040, type: 3}
+  Blueprint: {fileID: 621709676799596357, guid: b568b8a48b745ac4b8612f8fdf858293, type: 3}
   Wireframe: {fileID: 0}
   lodFlares: []
   IsCustomThing: 0
@@ -257,7 +289,7 @@ MonoBehaviour:
   HasLight: 0
   IsSmall: 0
   FastSpeed: 5
-  RigidBody: {fileID: -8775138396893153327}
+  RigidBody: {fileID: 8699027089850056654}
   WorldCenterOfMass: {x: 0, y: 0, z: 0}
   GripType: 0
   CastAnimation: 0
@@ -293,3 +325,247 @@ MonoBehaviour:
   IsKinematic: 0
   ChildSlotOffset: {x: 0, y: 0, z: 0}
   ChildSlotOffsetPosition: {x: 0, y: 0, z: 0}
+  ReplacementTool: {fileID: 0}
+  InventoryScale: 0.5
+  LocalOffSetInHand: {x: 0, y: 0, z: 0}
+  LocalRotationInHand: {x: 0, y: 0, z: 0}
+  PrecisionIk: 0
+  CreatedReagentMixture:
+    Flour:
+      ReagentId: 0
+      _quantity: 0
+    Milk:
+      ReagentId: 1
+      _quantity: 0
+    Egg:
+      ReagentId: 2
+      _quantity: 0
+    Iron:
+      ReagentId: 3
+      _quantity: 0
+    Gold:
+      ReagentId: 4
+      _quantity: 0
+    Carbon:
+      ReagentId: 5
+      _quantity: 0
+    Uranium:
+      ReagentId: 6
+      _quantity: 0
+    Copper:
+      ReagentId: 7
+      _quantity: 0
+    Steel:
+      ReagentId: 8
+      _quantity: 0
+    Hydrocarbon:
+      ReagentId: 9
+      _quantity: 0
+    Silver:
+      ReagentId: 10
+      _quantity: 0
+    Nickel:
+      ReagentId: 11
+      _quantity: 0
+    Lead:
+      ReagentId: 12
+      _quantity: 0
+    Electrum:
+      ReagentId: 13
+      _quantity: 0
+    Invar:
+      ReagentId: 14
+      _quantity: 0
+    Constantan:
+      ReagentId: 15
+      _quantity: 0
+    Solder:
+      ReagentId: 16
+      _quantity: 0
+    Plastic:
+      ReagentId: 17
+      _quantity: 0
+    Silicon:
+      ReagentId: 18
+      _quantity: 0
+    SalicylicAcid:
+      ReagentId: 19
+      _quantity: 0
+    Alcohol:
+      ReagentId: 20
+      _quantity: 0
+    Oil:
+      ReagentId: 21
+      _quantity: 0
+    Potato:
+      ReagentId: 22
+      _quantity: 0
+    Tomato:
+      ReagentId: 23
+      _quantity: 0
+    Fenoxitone:
+      ReagentId: 24
+      _quantity: 0
+    ColorRed:
+      ReagentId: 25
+      _quantity: 0
+    ColorGreen:
+      ReagentId: 26
+      _quantity: 0
+    ColorBlue:
+      ReagentId: 27
+      _quantity: 0
+    ColorYellow:
+      ReagentId: 28
+      _quantity: 0
+    ColorOrange:
+      ReagentId: 29
+      _quantity: 0
+    Pumpkin:
+      ReagentId: 30
+      _quantity: 0
+    Rice:
+      ReagentId: 31
+      _quantity: 0
+    Waspaloy:
+      ReagentId: 32
+      _quantity: 0
+    Stellite:
+      ReagentId: 33
+      _quantity: 0
+    Inconel:
+      ReagentId: 34
+      _quantity: 0
+    Hastelloy:
+      ReagentId: 35
+      _quantity: 0
+    Astroloy:
+      ReagentId: 36
+      _quantity: 0
+    Cobalt:
+      ReagentId: 37
+      _quantity: 0
+    Corn:
+      ReagentId: 38
+      _quantity: 0
+    Wheat:
+      ReagentId: 39
+      _quantity: 0
+    Biomass:
+      ReagentId: 40
+      _quantity: 0
+    Soy:
+      ReagentId: 41
+      _quantity: 0
+    Mushroom:
+      ReagentId: 42
+      _quantity: 0
+    Sugar:
+      ReagentId: 43
+      _quantity: 0
+    Cocoa:
+      ReagentId: 44
+      _quantity: 0
+  AllowSelfUse: 0
+  AllowForwardCursor: 0
+  TraderUniqueIdentifierRatio: 0
+  CanDecay: 0
+  DecayRate: 0.00018
+  IsDecayed: 0
+  TemperatureDecayRateMultiplier: 1
+  PressureDecayRateMultiplier: 1
+  TemperatureDecayRateMultiplierCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2
+      inSlope: -0.0040807934
+      outSlope: -0.0040807934
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.50074965
+    - serializedVersion: 3
+      time: 1
+      value: 1.8
+      inSlope: 0.0016072573
+      outSlope: 0.0016072573
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.49901164
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NutritionDecayRateCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.333333
+    - serializedVersion: 3
+      time: 0.1
+      value: 0.1
+      inSlope: 0.00993201
+      outSlope: 0.9197401
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.4321137
+      outWeight: 0.07177715
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.3
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PressureDecayRateMultiplierCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 5
+      inSlope: -12.372469
+      outSlope: -12.372469
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33333334
+      outWeight: 0.027380947
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.008049617
+      outSlope: 0.008049617
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.6991061
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  GasesDecayMultiplier:
+  - Gas: 1
+    DecayRateMultiplier: 1.5
+  - Gas: 2
+    DecayRateMultiplier: 0.6
+  - Gas: 4
+    DecayRateMultiplier: 0.8
+  - Gas: 16
+    DecayRateMultiplier: 3
+  - Gas: 64
+    DecayRateMultiplier: 1.5
+  - Gas: 1024
+    DecayRateMultiplier: 2
+  DecayedFoodPrefab: {fileID: 0}

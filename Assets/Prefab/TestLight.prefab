@@ -1,58 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &129076096333179323
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9041279408015694048}
-  - component: {fileID: 7010685590229634125}
-  m_Layer: 0
-  m_Name: Plug
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9041279408015694048
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129076096333179323}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: -0.5}
-  m_LocalPosition: {x: 0.36, y: 0, z: 0.030000001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3046087095149597294}
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 270}
---- !u!135 &7010685590229634125
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129076096333179323}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3630157980397963402
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +53,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2, y: 0.2, z: 0.25}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &8135967233564238343
+--- !u!1 &4981419618966786471
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,8 +61,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 962479307870082696}
-  - component: {fileID: 8612014764534235489}
+  - component: {fileID: 8431957929624344535}
+  m_Layer: 0
+  m_Name: Power2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8431957929624344535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4981419618966786471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0.31, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3046087095149597294}
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 180}
+--- !u!1 &6414642590518937432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8702503447593384849}
+  - component: {fileID: 7495851616191747275}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -123,13 +101,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &962479307870082696
+--- !u!4 &8702503447593384849
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135967233564238343}
+  m_GameObject: {fileID: 6414642590518937432}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.1}
@@ -138,20 +116,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3046087095149597294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &8612014764534235489
+--- !u!108 &7495851616191747275
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8135967233564238343}
-  m_Enabled: 1
+  m_GameObject: {fileID: 6414642590518937432}
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 1
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -200,6 +178,37 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &8800758519684682754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475674209357962670}
+  m_Layer: 0
+  m_Name: Power3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475674209357962670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800758519684682754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.31, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3046087095149597294}
+  m_LocalEulerAnglesHint: {x: 180, y: 270, z: 180}
 --- !u!1001 &3300955387376072069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -265,17 +274,21 @@ PrefabInstance:
       value: TestLight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8245864472737768373, guid: 287d29dace2787b49acc257c0884c705, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 287d29dace2787b49acc257c0884c705, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6537997256961668909}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 287d29dace2787b49acc257c0884c705, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 962479307870082696}
+      addedObject: {fileID: 8431957929624344535}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 287d29dace2787b49acc257c0884c705, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9041279408015694048}
+      addedObject: {fileID: 475674209357962670}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 287d29dace2787b49acc257c0884c705, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8702503447593384849}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 287d29dace2787b49acc257c0884c705, type: 3}
       insertIndex: -1
@@ -369,23 +382,6 @@ MonoBehaviour:
     Light: {r: 1, g: 1, b: 1, a: 1}
     Color: {r: 1, g: 1, b: 1, a: 1}
   Interactables:
-  - StringKey: OnOff
-    StringHash: 734558724
-    Parent: {fileID: -4034353940515785613}
-    Collider: {fileID: 4122587504419657174, guid: aadc0f105a94ae1419e8041d6ffc6c9f, type: 3}
-    FakeCollider: {fileID: 0}
-    Bounds:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-    Action: 36
-    Animator: {fileID: 0}
-    JoinInProgressSync: 0
-    Layer: 0
-    CanKeyInteract: 0
-    KeyMap: 
-    AssociatedAudioEvents: []
-    ActionName: Power
-    _state: 0
   - StringKey: Powered
     StringHash: 87111221
     Parent: {fileID: -4034353940515785613}
@@ -396,12 +392,46 @@ MonoBehaviour:
       m_Extent: {x: 0, y: 0, z: 0}
     Action: 42
     Animator: {fileID: 0}
-    JoinInProgressSync: 0
+    JoinInProgressSync: 1
     Layer: 0
     CanKeyInteract: 0
     KeyMap: 
     AssociatedAudioEvents: []
     ActionName: Power
+    _state: 0
+  - StringKey: OnOff
+    StringHash: 734558724
+    Parent: {fileID: -4034353940515785613}
+    Collider: {fileID: 1249529434224375893}
+    FakeCollider: {fileID: 0}
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.25, y: 0.25, z: 0.25}
+    Action: 36
+    Animator: {fileID: 0}
+    JoinInProgressSync: 1
+    Layer: 0
+    CanKeyInteract: 0
+    KeyMap: 
+    AssociatedAudioEvents: []
+    ActionName: Power
+    _state: 0
+  - StringKey: Access
+    StringHash: 29699682
+    Parent: {fileID: -4034353940515785613}
+    Collider: {fileID: 0}
+    FakeCollider: {fileID: 0}
+    Bounds:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
+    Action: 46
+    Animator: {fileID: 0}
+    JoinInProgressSync: 1
+    Layer: 0
+    CanKeyInteract: 0
+    KeyMap: 
+    AssociatedAudioEvents: []
+    ActionName: 
     _state: 0
   AudioEvents: []
   AudioSources: []
@@ -426,7 +456,7 @@ MonoBehaviour:
     z: 0
   Lights:
   - Thing: {fileID: -4034353940515785613}
-    Light: {fileID: 4573455077188078189, guid: 436d4b8d456ddd44aa1f52c1ceca6280, type: 3}
+    Light: {fileID: 7495851616191747275}
     VolumetricLight: {fileID: 0}
     Flare: {fileID: 0}
     Range: 0
@@ -453,7 +483,6 @@ MonoBehaviour:
   _staticColliders:
   - {fileID: -2412417164348556757}
   - {fileID: 1249529434224375893}
-  - {fileID: 7010685590229634125}
   _dynamicColliders: []
   _selfColliders: []
   IsUpdateEachFrame: 0
@@ -570,7 +599,21 @@ MonoBehaviour:
   BoundsExpand: 0
   OpenEnds:
   - ConnectionType: 6
-    Transform: {fileID: 4082343879295200677, guid: 3b330c0b8ed72604698a9ec44e525268, type: 3}
+    Transform: {fileID: 8431957929624344535}
+    Collider: {fileID: 0}
+    ConnectionRole: 0
+    HelperRenderer: {fileID: 0}
+    Parent: {fileID: -4034353940515785613}
+    LocalGrid:
+      x: 0
+      y: 0
+      z: 0
+    FacingGrid:
+      x: 0
+      y: 0
+      z: 0
+  - ConnectionType: 6
+    Transform: {fileID: 475674209357962670}
     Collider: {fileID: 0}
     ConnectionRole: 0
     HelperRenderer: {fileID: 0}
@@ -592,7 +635,7 @@ MonoBehaviour:
   _infoScreen: {fileID: 0}
   ConnectionType: 8
   OpenEndsPermutation: 000000000100000002000000030000000400000005000000
-  light: {fileID: 0}
+  light: {fileID: 7495851616191747275}
   lodFlare: {fileID: 0}
 --- !u!4 &3046087095149597294 stripped
 Transform:
