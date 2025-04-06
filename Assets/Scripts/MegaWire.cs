@@ -5,7 +5,8 @@ using UnityEngine;
 
 namespace Chipstix.ExamplePrefab
 {
-    public class MegaCable : Cable
+    public class MegaWire : Cable
+
     {
 
     }

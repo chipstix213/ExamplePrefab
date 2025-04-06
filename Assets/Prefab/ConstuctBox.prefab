@@ -233,7 +233,7 @@ MonoBehaviour:
   DeleteOnDestroyed: 1
   UsingSound: 
   UseCompleteSound: 
-  HasLight: 1
+  HasLight: 0
   IsSmall: 0
   FastSpeed: 5
   RigidBody: {fileID: -9209794596564008387}

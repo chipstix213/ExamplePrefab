@@ -635,8 +635,8 @@ MonoBehaviour:
   UsedPower: 10
   AttachedCables: []
   _infoScreen: {fileID: 0}
-  ConnectionType: 8
-  OpenEndsPermutation: 000000000100000002000000030000000400000005000000
+  ConnectionType: 2065
+  OpenEndsPermutation: 00000000010000000200000003000000
   light: {fileID: 5361672636704779141}
   lodFlare: {fileID: 1439768420065774631}
 --- !u!4 &868550807088419792 stripped
