@@ -469,6 +469,7 @@ MonoBehaviour:
   MaxQuantity: 10
   Constructables:
   - {fileID: 8742826959730809646, guid: 4b3c7b1a7c1e17643aa3037a18752a49, type: 3}
+  - {fileID: -7794639706262333900, guid: 6cfb13acaea02ff4085cd204ac7f4ae4, type: 3}
   ToolExit: {fileID: 0}
 --- !u!1 &7228173272855010972
 GameObject:

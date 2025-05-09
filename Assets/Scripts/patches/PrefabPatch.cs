@@ -68,20 +68,16 @@ namespace Chipstix.ExamplePrefab
                         testroundlight.BuildStates[0].Tool.ToolExit = StationeersModsUtility.FindTool(StationeersTool.DRILL);
                         testroundlight.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
                     }
-                    if (thing is MegaWire)
+                   /* if (thing is MegaWire)
                     {
                         Debug.Log("patch MegaCable");
                         MegaWire megacable = gameObject.GetComponent<MegaWire>();
-                        /*MeshRenderer meshRenderer = gameObject.GetComponent<MeshRenderer>();
-                        meshRenderer.materials = new[]
-                        {
-                            customColors[4].Normal
-                        };
-                        thing.PaintableMaterial = customColors[6].Normal;*/
+
                         megacable.BuildStates[0].Tool.ToolExit = StationeersModsUtility.FindTool(StationeersTool.DRILL);
                         megacable.BuildStates[0].Tool.ToolEntry2 = StationeersModsUtility.FindTool(StationeersTool.CABLE_CUTTERS);
                         megacable.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
                     }
+                   */
 
                     if (thing is MegaPipeConst)
                     {
@@ -90,6 +86,22 @@ namespace Chipstix.ExamplePrefab
 
                     }
 
+                    if (thing is generator)
+                    {
+                        Debug.Log("patch SoldGen");
+                        generator SoldGen = gameObject.GetComponent<generator>();
+                        /*MeshRenderer meshRenderer = gameObject.GetComponent<MeshRenderer>();
+                        meshRenderer.materials = new[]
+                        {
+                            customColors[4].Normal
+                        };
+                        thing.PaintableMaterial = customColors[6].Normal;*/
+
+                        SoldGen.BuildStates[0].Tool.ToolExit = StationeersModsUtility.FindTool(StationeersTool.DRILL);
+                        SoldGen.Blueprint.GetComponent<MeshRenderer>().materials = StationeersModsUtility.GetBlueprintMaterials(2);
+
+
+                    }
                     //note
 
 

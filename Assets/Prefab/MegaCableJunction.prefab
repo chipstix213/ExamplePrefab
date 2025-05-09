@@ -1,0 +1,630 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4570364985413434048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8871786980325459373, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6625263722913499827, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: -4446436487148121338, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: -3555733407458881263, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: -1571538761898046621, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Name
+      value: MegaCableJunction
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806441436851442902, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 3262156151655543687, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 5257926366039906116, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 5590517885856073800, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 5854811352105451096, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 6795250036274891989, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 6970414037260479763, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7794639706262333900}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3037773003666868476}
+    - targetCorrespondingSourceObject: {fileID: -3498541102494351063, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6907672144017325302}
+  m_SourcePrefab: {fileID: 100100000, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+--- !u!4 &416342989024523757 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4996155533536489683, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+  m_PrefabInstance: {fileID: 4570364985413434048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3723451514253887377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+  m_PrefabInstance: {fileID: 4570364985413434048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-7794639706262333900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3723451514253887377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 798ad59f6f131584e9dbe582bf7a79d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _referenceId: 0
+  _dlcType: 0
+  switchOnOff: {fileID: 0}
+  activateButton: {fileID: 0}
+  leverAnimationComponent: {fileID: 0}
+  SuppressSound: 1
+  Forward: {x: 0, y: 0, z: 0}
+  HideInStationpedia: 0
+  CurrentPingMesh: {fileID: 0}
+  IsEmergency: 0
+  PrefabName: MegaCableJunction
+  PrefabHash: 1787834319
+  ThingTransform: {fileID: 4100399643430362411}
+  Slots: []
+  Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+  SurfaceArea: 0
+  SurfaceAreaScale: 1
+  BoundsOffset: {x: 0, y: 0, z: 0}
+  IgnoreSave: 0
+  generateTerrain: 1
+  WillSave: 1
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
+  CanFrustumCull: 0
+  ThermodynamicsScale: 0.1
+  SolarHeatingScale: 0.1
+  WeatherDamageScale: 1
+  shatterTemperature: 1
+  flashpointTemperature: -1
+  autoignitionTemperature: -1
+  BurnTime: 5
+  ThingHealth: 100
+  EnergyReleasedWhenBurned: 100000
+  _customName: 
+  OwnerClientId: 0
+  PaintableMaterial: {fileID: 0}
+  CustomColor:
+    Name: 
+    Bit: 0
+    StringKey: 0
+    Normal: {fileID: 0}
+    Emissive: {fileID: 0}
+    Cutable: {fileID: 0}
+    Light: {r: 1, g: 1, b: 1, a: 1}
+    Color: {r: 1, g: 1, b: 1, a: 1}
+  Interactables: []
+  AudioEvents: []
+  AudioSources: []
+  BaseAnimator: {fileID: 0}
+  IsCursor: 0
+  Blueprint: {fileID: 0}
+  Wireframe: {fileID: 0}
+  lodFlares: []
+  IsCustomThing: 0
+  ThumbnailOffset: {x: 0, y: 0, z: 0}
+  ThumbnailRotation: {x: 0, y: 0, z: 0, w: 0}
+  Thumbnail: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  Thumbnails: []
+  IsEntity: 0
+  _isOccluded: 0
+  HasRunOnAtmospherics: 0
+  MaterialChanger: {fileID: 0}
+  AnimComponents: []
+  LocalGrid:
+    x: 0
+    y: 0
+    z: 0
+  Lights: []
+  Renderers: []
+  RocketRenderers: []
+  HasErrorState: 0
+  HasPowerState: 0
+  HasActivateState: 0
+  HasLockState: 0
+  HasOnOffState: 0
+  HasModeState: 0
+  HasOpenState: 0
+  HasImportState: 0
+  HasExportState: 0
+  HasExport2State: 0
+  HasButton1State: 0
+  HasButton2State: 0
+  HasButton3State: 0
+  HasColorState: 0
+  HasAccessState: 0
+  _staticColliders:
+  - {fileID: 6907672144017325302}
+  _dynamicColliders: []
+  _selfColliders: []
+  IsUpdateEachFrame: 0
+  IsUpdateAudio: 0
+  IsUpdate100MS: 0
+  IsUpdate1000MS: 0
+  CanPickup: 1
+  DestroyChildrenOnDead: 1
+  EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  DiffuseIndex: 0
+  SmoothnessIndex: 0
+  alwaysCastShadows: 0
+  maxPressureDelta: -1
+  BuildingTip: 
+  BuildStates:
+  - Thumbnail: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    DamagedBuildState: 0
+    BlockAir: 0
+    AlwaysBlockAir: 0
+    BlockLight: 0
+    BlockGravity: 0
+    RenderMode: 0
+    Visualizer: {fileID: 0}
+    StateMeshes: []
+    RendererInstance:
+      Parent: {fileID: 0}
+      UnityRenderer: {fileID: 0}
+      _rocketRenderer: {fileID: 0}
+      DefaultMode: 0
+      MeshFilter: {fileID: 0}
+      BaseLayer: 0
+      _enabled: 0
+      _visible: 0
+    TemperatureRadiationFactor: 0
+    Tool:
+      ToolEntry: {fileID: -4237868721049320499, guid: defbd076b73f0524c93b581232b75ef8, type: 3}
+      ToolEntry2: {fileID: 0}
+      EntryTime: 1
+      EntryQuantity: 1
+      EntryQuantity2: 0
+      ToolUseType: 0
+      ToolExit: {fileID: 0}
+      ExitTime: 1
+      ExitQuantity: 1
+    ColliderMode: 0
+    Colliders: []
+    LinkedGameObjects: []
+    CanManufacture: 0
+    ManufactureDat:
+      MachinesTier: 0
+      BuildTimeMultiplier: 0
+      ItemSpawnMultiplier: 0
+      EnergyCostMultiplier: 0
+      MaterialCostMultiplier: 0
+    InteractableParent: {fileID: 0}
+    Interactables: []
+    initialDrawData:
+      mesh: {fileID: 0}
+      materials: []
+      shadowMode: 0
+  BrokenBuildStates: []
+  RepairTools:
+    ToolEntry: {fileID: 0}
+    ToolEntry2: {fileID: 0}
+    EntryTime: 2
+    EntryQuantity: 0
+    EntryQuantity2: 0
+  UpgradePrefab:
+    UpgradeTools:
+      ToolEntry: {fileID: 0}
+      ToolEntry2: {fileID: 0}
+      EntryTime: 2
+      EntryQuantity: 0
+      EntryQuantity2: 0
+    Prefab: {fileID: 0}
+  GridSize: 0.5
+  GridOffset: 0.25
+  _useAxisIndependentGridSnapping: 0
+  _gridSize3d: {x: 0, y: 0, z: 0}
+  _gridOffset3d: {x: 0, y: 0, z: 0}
+  PlacementType: 0
+  SelectionDisplay: 0
+  StructureCollisionType: 2
+  AllowMounting: 0
+  UseCellPosition: 0
+  BoundsGridRatio: 0.9
+  BoundsGridShiftForward: 0
+  BoundsGridShiftSide: 0
+  BoundsGridExtraHeight: 0
+  BoundsGridAddHeight: 0
+  BoundsGridAddBottom: 0
+  BoundsGridExtraWidth: 0
+  BoundsGridExtraForward: 0
+  BoundsForward: 0
+  DualRegisterGridScale: 1
+  RotationAxis: -1
+  AllowedRotations: -1
+  CustomNavMeshFilter: {fileID: 0}
+  blockingGrids: []
+  RegisteredLocalGrid:
+    x: 0
+    y: 0
+    z: 0
+  Up: {x: 0, y: 0, z: 0}
+  Temperature: 0
+  AttachedDevices: []
+  RenderUsingTerrainLod: 0
+  NeighborStructures: []
+  Direction: {x: 0, y: 0, z: 0, w: 0}
+  HasLight: 0
+  structureRenderMode: 0
+  MPBRenderers: []
+  ForceGridBounds: []
+  BoundsExpand: 0
+  OpenEnds:
+  - ConnectionType: 2
+    Transform: {fileID: 5875664301285482844}
+    Collider: {fileID: 0}
+    ConnectionRole: 0
+    HelperRenderer: {fileID: 0}
+    Parent: {fileID: -7794639706262333900}
+    LocalGrid:
+      x: 0
+      y: 0
+      z: 0
+    FacingGrid:
+      x: 0
+      y: 0
+      z: 0
+  - ConnectionType: 2
+    Transform: {fileID: 416342989024523757}
+    Collider: {fileID: 0}
+    ConnectionRole: 0
+    HelperRenderer: {fileID: 0}
+    Parent: {fileID: -7794639706262333900}
+    LocalGrid:
+      x: 0
+      y: 0
+      z: 0
+    FacingGrid:
+      x: 0
+      y: 0
+      z: 0
+  - ConnectionType: 2
+    Transform: {fileID: 8759189428539334957}
+    Collider: {fileID: 0}
+    ConnectionRole: 0
+    HelperRenderer: {fileID: 0}
+    Parent: {fileID: -7794639706262333900}
+    LocalGrid:
+      x: 0
+      y: 0
+      z: 0
+    FacingGrid:
+      x: 0
+      y: 0
+      z: 0
+  SmallCollisionType: 7
+  DualRegister: 0
+  requiresFrame: 0
+  HasDataConnection: 0
+  MaxVoltage: 200000
+  CableNetworkId: 0
+  RupturedPrefab: {fileID: 0}
+  CableType: 1
+  IsStraight: 0
+  _rocketInternalCellType: 0
+  ConnectionType: 3
+  OpenEndsPermutation: 000000000100000002000000030000000400000005000000
+--- !u!114 &3037773003666868476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3723451514253887377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45eaef95bfdb6444896f004bab0dc391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StructureParent: {fileID: 0}
+  BuildStates:
+  - rid: 1966331532764512274
+  - rid: 1966331532764512275
+  - rid: 1966331532764512276
+  - rid: 1966331532764512277
+  - rid: 1966331532764512278
+  BrokenBuildStates:
+  - rid: 1966331532764512279
+  - rid: 1966331532764512280
+  - rid: 1966331532764512281
+  - rid: 1966331532764512282
+  - rid: 1966331532764512283
+  RepairTools:
+    rid: 1966331532764512284
+  upgradePrefab:
+    rid: 1966331532764512285
+  references:
+    version: 2
+    RefIds:
+    - rid: 1966331532764512274
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 1
+        ToolEntry: MegaWireMergeConst
+        EntryQuantity: 1
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 1
+        ToolExit: ItemDrill
+        ExitQuantity: 1
+    - rid: 1966331532764512275
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512276
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512277
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512278
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512279
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331532764512286
+        BrokenPieces: []
+    - rid: 1966331532764512280
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331532764512287
+        BrokenPieces: []
+    - rid: 1966331532764512281
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331532764512288
+        BrokenPieces: []
+    - rid: 1966331532764512282
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331532764512289
+        BrokenPieces: []
+    - rid: 1966331532764512283
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331532764512290
+        BrokenPieces: []
+    - rid: 1966331532764512284
+      type: {class: ToolEntryStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+    - rid: 1966331532764512285
+      type: {class: UpgradePrefab, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        UpgradeTools:
+          rid: 1966331532764512291
+        Prefab: 
+    - rid: 1966331532764512286
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512287
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512288
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512289
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512290
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331532764512291
+      type: {class: ToolEntryStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+--- !u!4 &4100399643430362411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+  m_PrefabInstance: {fileID: 4570364985413434048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5875664301285482844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1231805758557660260, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+  m_PrefabInstance: {fileID: 4570364985413434048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8079349816301976553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3498541102494351063, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+  m_PrefabInstance: {fileID: 4570364985413434048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6907672144017325302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8079349816301976553}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.45000005, y: 0.45000017, z: 0.45000017}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &8759189428539334957 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4115209386572194835, guid: 8dfd7e9850d88b84287aa7ebbd2aba99, type: 3}
+  m_PrefabInstance: {fileID: 4570364985413434048}
+  m_PrefabAsset: {fileID: 0}

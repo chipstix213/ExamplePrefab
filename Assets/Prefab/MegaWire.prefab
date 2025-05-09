@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8324662937410591233, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
     - target: {fileID: -5999919764593128118, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -68,6 +72,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3182765073802170513, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
     - target: {fileID: -1406584583910568386, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -92,6 +100,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MegaWire
       objectReference: {fileID: 0}
+    - target: {fileID: 6817637912193872066, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
+    - target: {fileID: 7549680514597610993, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20eeb8b42fde954da1635be48856398, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -99,6 +115,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8742826959730809646}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6684908098478169922}
     - targetCorrespondingSourceObject: {fileID: -3111565609762313623, guid: 91fe27116073217499b4ed539ce7e421, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8622099019707687797}
@@ -278,7 +297,7 @@ MonoBehaviour:
       ToolEntry2: {fileID: 0}
       EntryTime: 1
       EntryQuantity: 1
-      EntryQuantity2: 1
+      EntryQuantity2: 0
       ToolUseType: 0
       ToolExit: {fileID: 0}
       ExitTime: 1
@@ -386,14 +405,208 @@ MonoBehaviour:
   DualRegister: 0
   requiresFrame: 0
   HasDataConnection: 0
-  MaxVoltage: 15000
+  MaxVoltage: 200000
   CableNetworkId: 0
-  RupturedPrefab: {fileID: 0}
+  RupturedPrefab: {fileID: -1180853502381555421, guid: b5baa7e486aad3d43bf88a09934a8915, type: 3}
   CableType: 1
   IsStraight: 1
   _rocketInternalCellType: 2
   ConnectionType: 2
   OpenEndsPermutation: 000000000100000000000000010000000000000000000000
+--- !u!114 &6684908098478169922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4720252459270899676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45eaef95bfdb6444896f004bab0dc391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StructureParent: {fileID: 0}
+  BuildStates:
+  - rid: 1966331470197555290
+  - rid: 1966331470197555291
+  - rid: 1966331470197555292
+  - rid: 1966331470197555293
+  - rid: 1966331470197555294
+  BrokenBuildStates:
+  - rid: 1966331470197555295
+  - rid: 1966331470197555296
+  - rid: 1966331470197555297
+  - rid: 1966331470197555298
+  - rid: 1966331470197555299
+  RepairTools:
+    rid: 1966331470197555300
+  upgradePrefab:
+    rid: 1966331470197555301
+  references:
+    version: 2
+    RefIds:
+    - rid: 1966331470197555290
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 1
+        ToolEntry: MegaWireMergeConst
+        EntryQuantity: 1
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 1
+        ToolExit: ItemDrill
+        ExitQuantity: 1
+    - rid: 1966331470197555291
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555292
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555293
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555294
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555295
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331470197555302
+        BrokenPieces: []
+    - rid: 1966331470197555296
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331470197555303
+        BrokenPieces: []
+    - rid: 1966331470197555297
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331470197555304
+        BrokenPieces: []
+    - rid: 1966331470197555298
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331470197555305
+        BrokenPieces: []
+    - rid: 1966331470197555299
+      type: {class: BrokenBuildState, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        BuildState:
+          rid: 1966331470197555306
+        BrokenPieces: []
+    - rid: 1966331470197555300
+      type: {class: ToolEntryStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+    - rid: 1966331470197555301
+      type: {class: UpgradePrefab, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        UpgradeTools:
+          rid: 1966331470197555307
+        Prefab: 
+    - rid: 1966331470197555302
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555303
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555304
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555305
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555306
+      type: {class: ToolExitStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
+        ExitTime: 2
+        ToolExit: 
+        ExitQuantity: 0
+    - rid: 1966331470197555307
+      type: {class: ToolEntryStruct, ns: Chipstix.ExamplePrefab, asm: ExamplePrefab}
+      data:
+        EntryTime: 2
+        ToolEntry: 
+        EntryQuantity: 0
+        ToolEntry2: 
+        EntryQuantity2: 0
 --- !u!4 &5389230090811989350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 91fe27116073217499b4ed539ce7e421, type: 3}

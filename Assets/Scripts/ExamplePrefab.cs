@@ -20,6 +20,11 @@ public class ExamplePrefab : ModBehaviour
         Harmony harmony = new Harmony("ExamplePrefab");
         PrefabPatch.prefabs = contentHandler.prefabs;
         harmony.PatchAll();
+
+        ModStructureToolSetup.SetupModStructureToolForPrefabs(contentHandler.prefabs);
+
         UnityEngine.Debug.Log("ExamplePrefab Loaded with " + contentHandler.prefabs.Count + " prefab(s)");
+
+
     }
 }
